@@ -25,12 +25,22 @@ header{
 #main{
     min-height:83vh;
     width: 100vw;
-    display:flex;
+    display:grid;
+    grid-template-columns: 15vw 85vw;
     align-items: center;
     justify-content: center;
 }
 
+nav{
+    grid-column: 1;
+    border-right:1px solid black;
+    height: 100%;
+    background-color: #576574;
+}
+
+
 article{
+    grid-column: 2;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
