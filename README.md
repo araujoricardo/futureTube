@@ -1,3 +1,3 @@
 # futureTube
 
-Very simple web page to test the GitHuB pages feature.
+Very simple web page to test the GitHub pages feature.
